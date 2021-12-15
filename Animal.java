@@ -5,6 +5,7 @@ public class Animal
     private String raza;
     private String nombre;
     private int edad;
+    public Dueño dueño;
 
     public Animal(String nuevoNombre)
     {
@@ -16,7 +17,7 @@ public class Animal
     {
         return edad;
     }
-
+∫
     //Método para establecer la edad del animal
     public void setEdad(int nuevaEdad)
     {
@@ -28,4 +29,9 @@ public class Animal
     {
         return nombre;
     }
+    public Dueño getDueño()
+     {
+        return dueño;
+    }
+
 }

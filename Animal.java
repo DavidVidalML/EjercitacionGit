@@ -5,6 +5,7 @@ public class Animal
     private String raza;
     private String nombre;
     private int edad;
+    private boolean desparasitado;
 
     public Animal(String nuevoNombre)
     {
@@ -27,5 +28,10 @@ public class Animal
     public String getNombre()
     {
         return nombre;
+    }
+
+    public boolean desparasitado(boolean siono)
+    {
+        desparasitado = siono;
     }
 }
